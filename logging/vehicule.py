@@ -1,6 +1,5 @@
 """
 Sets logging config and creates the vehicule class
-Console will show 
 """
 import logging
 
