@@ -11,7 +11,7 @@ from utils import (end_notificacion, location_notification,
 
 # Ask user input
 PRODUCT_NAME = input('Ingrese el nombre del producto a buscar: ').lower()
-ZONE_NAME = input('Ingrese el nombre del producto a buscar: ').lower()
+ZONE_NAME = input('Ingrese la zona donde desea buscar: ').lower()
 
 # Prepare product name for query
 PRODUCT = PRODUCT_NAME.replace(' ', '%20')
